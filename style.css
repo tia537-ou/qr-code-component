@@ -1,0 +1,31 @@
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       min-height: 100vh;
+       background-color: rgba(158, 185, 244, 0.46);
+    }
+    .card{
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 230px;
+      padding: 20px;
+      box-shadow: 0 20px 22px 9px rgba(0,0,0,0.1);
+      border-radius: 20px;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    img{
+      width: 230px;
+      object-fit: cover;
+      border-radius: 9px;
+    }
+
+    .card p{
+      color: rgb(114, 113, 113);
+      font-size: 12px;
+    }
